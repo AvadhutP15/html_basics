@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Job Application Form</title>
+    <style>
+        .ln,.em{
+            width: 300px;
+        }
+        .fn{
+            width: 140px;
+        }
+        .mn{
+            width: 140px;
+            margin-left: 15px;
+        }
+        .lmn{
+            margin-left: 80px;
+        }
+        .re{
+            width: 300px;
+        }
+        .lhw{
+            margin-left: 25px;
+        }
+        .lwh{
+            margin-left: 50px;
+        }
+        .lpaf{
+            margin-right: 20px;
+        }
+        .position,.date{
+            margin-right: 25px;
+            width: 140px;
+        }
+        .hw{
+            width: 140px;
+            
+        }
+        button{
+            margin-left: 250px;
+            border-radius: 10px;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <h1>Personal Data</h1>
+    <hr style="color: blue;">
+    <section>
+      <label for="ln">Last Name*</label><br>
+      <input type="text" class="ln" /><br>
+      <label for="fn">First Name*</label><label for="mn" class="lmn">Middle Name</label><br>
+      <input type="text" class="fn" />
+      
+      <input type="text" class="mn" /><br>
+      <label for="em">Email*</label><br>
+      <input type="text" class="em" /><br>
+      <label for="re">Resume*</label><br>
+      <textarea name="re" class="re" cols="50" rows="4"></textarea>
+    </section>
+
+    <h1>Job</h1>
+    <hr style="color: blue;">
+    <section>
+      <label class="lpaf"for="position">Position applied for</label><label class="lhw" for="hw">Hourly Wage*</label><br>
+      <select name="position" class="position">
+        <option value="a">Administration</option>
+        <option value="b">Coding</option>
+        <option value="c">Analyst</option>
+        <option value="d">Designer</option>
+      </select>
+      
+      <input type="number" class="hw" /><br>
+      <label class="ldycs" for="date">Date you can start</label><label class="lwh" for="wh">Weekly Hours*</label><br>
+      <input type="date" class="date"/>
+      
+      <input type="number" class="hw">
+    </section>
+    <hr>
+    <button>Submit</button>
+  </body>
+</html>
